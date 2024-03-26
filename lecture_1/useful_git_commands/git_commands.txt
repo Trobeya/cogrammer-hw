@@ -12,9 +12,10 @@ git restore . , to completely undo your changes
 
 -------- Sync local repo to Github repository---------------------
 git remote add origin https://github.com/[REPO-OWNER]/[REPO-NAME]
+git remote add origin https://github.com/[REPO-OWNER]/[REPO-NAME]
 git branch -M main
 git push -u origin main
-git remote show origin
+>git remote show origin
 ------------------------------------------------------------------
 git clone https://github.com/[REPO-OWNER]/[REPO-NAME]
 git fetch origin
